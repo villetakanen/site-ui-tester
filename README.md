@@ -13,4 +13,4 @@ To begin, use config.example.json file as the base of your own config.json file.
 
 - readme
 - code refactoring
-- api-controlled version
+- Web API -controlled version
