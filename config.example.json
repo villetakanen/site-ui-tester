@@ -1,0 +1,50 @@
+{
+    "settings": {
+        "mail": {
+            "gmail": {
+                "service": "gmail",
+                "auth": {
+                    "user": "user@gmail.com",
+                    "pass": "gmailpass"
+                }
+            },
+            "mailserver":{
+                "host": "smtp.mailserver.com",
+                "port": 587,
+                "auth": {
+                    "user": "user",
+                    "pass": "pass"
+                }
+
+            },
+            "currentService": "mailserver",
+            "messageOptions": {
+                "receiverEmail": "testmail@mail.com",
+                "senderEmail": "mail@testing.com",
+                "subject": "Regression test mail"
+            }
+        },
+        "monitor": {
+            "cli": {
+                "--web-security": false,
+                "--disk-cache": false
+            },
+            "page": {
+                "viewportSize": {
+                    "width": 1240,
+                    "height": 768
+                },
+                "settings": {
+                    "resourceTimeout": 20000,
+                    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"
+                }
+            },
+            "path":{
+                "root": "monitor_data"
+            }
+        }
+    },
+    "resources": [
+        "http://www.google.com/"
+    ] 
+}
