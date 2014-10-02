@@ -7,10 +7,10 @@ Based on https://github.com/fouber/page-monitor
 
 ## How to start
 
-To begin, use config.example.json file as the base of your config.json file.
+To begin, use config.example.json file as the base of your own config.json file.
 
 ### ToDo
 
 - readme
 - code refactoring
-- api-contolled version
+- api-controlled version
