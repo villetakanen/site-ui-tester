@@ -1,0 +1,16 @@
+{
+  "name": "site-ui-tester",
+  "description": "Configure and test site's ui changes between 2 versions. If any changes occur get notified by those via email.",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "pyryjook"
+  },
+  "dependencies": {
+    "page-monitor": "0.4.4",
+    "nodemailer": "^1.3.0",
+    "nodemailer-smtp-transport": "^0.1.12",
+    "find-remove": "^0.2.5",
+    "fs-extra": "^0.12.0"
+  }
+}
